@@ -1,6 +1,6 @@
 -
  name: Install Nginx and Start 
- hosts: future
+ hosts: web_server
  become: yes
  tasks:
    - name: Install Nginx
