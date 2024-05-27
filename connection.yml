@@ -1,0 +1,8 @@
+---
+- name: Ping Test - Check Host Connectivity
+  hosts: future
+  connection: ssh  # Optional, defaults to ssh
+
+  tasks:
+  - name: Ping the target host
+    ping:
