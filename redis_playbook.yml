@@ -1,6 +1,6 @@
 ---
 - name: Install Redis
-  hosts: future
+  hosts: all_server
   become: yes
 
   tasks:
