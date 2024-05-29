@@ -1,6 +1,6 @@
 ---
 - name: Update apt package index
-  hosts: future
+  hosts: all_server
   become: yes
 
   tasks:
