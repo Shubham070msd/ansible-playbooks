@@ -1,6 +1,6 @@
 -
  name: Install Nginx and Start 
- hosts: build_tree
+ hosts: all_server
  become: yes
  tasks:
    - name: Install Nginx
