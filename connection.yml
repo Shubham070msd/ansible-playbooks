@@ -1,6 +1,6 @@
 ---
 - name: Ping Test - Check Host Connectivity
-  hosts: future
+  hosts: all_server
   connection: ssh  # Optional, defaults to ssh
 
   tasks:
